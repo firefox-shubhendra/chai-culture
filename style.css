@@ -1,0 +1,102 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #3b2b1f, #1b120b);
+  color: #f5efe6;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:
+  radial-gradient(circle at top, #3b2b1f, #1b120b),
+  url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+
+}
+
+.container {
+  text-align: center;
+  max-width: 500px;
+  padding: 2rem;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 1.5rem;
+  border-radius: 20px;
+  border: 2px solid yellow;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  color: #d4af37;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #e6dccf;
+  margin-bottom: 1.5rem;
+}
+
+.launch-badge {
+  display: inline-block;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.signup {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.signup input {
+  flex: 1;
+  padding: 0.7rem;
+  border: none;
+  outline: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 0.9rem;
+}
+
+.signup button {
+  background: #d4af37;
+  color: #1b120b;
+  border: none;
+  padding: 0 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.signup button:hover {
+  background: #c19b2e;
+}
+
+.socials i {
+  margin: 0 0.6rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #d4af37;
+}
+
+.socials i:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+}
